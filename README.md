@@ -131,6 +131,6 @@ Golden-Poppy #FEC500 (Pulled from the image we chose as our main image)
 
 We're very happy with how the project turned out. We had limited time and we're working with new technology in a group which was very differnt for us all, yet our site was functional and satisfied the majority of the user stories. 
 
-![](https://media.giphy.com/media/YPTy760meD2xi/giphy.gif)
+![alt text](https://media.giphy.com/media/YPTy760meD2xi/giphy.gif)
 
  
