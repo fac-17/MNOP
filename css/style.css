@@ -1,3 +1,22 @@
+/*NAV BAR*/
+.navbar-container {
+  justify-content: center;
+  background-color: #413f54;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar li {
+  color: white;
+
+  /* PROFILE SECTION*/
 .profile {
   width: 60%;
   padding: 1rem;
