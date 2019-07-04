@@ -1,5 +1,9 @@
 /* Overal Styling  */
 
+body {
+  margin: 0;
+}
+
 h3 {
   font-size: 1.8rem;
   margin: 20px auto;
@@ -29,8 +33,7 @@ h4 {
   color: white;
 }
 
-  /* PROFILE SECTION*/
-
+/* PROFILE SECTION*/
 
 /* MAIN IMAGE*/
 
@@ -95,12 +98,11 @@ h4 {
     display: grid;
 
     grid-template: 80vh 80vh / 50% 50%;
-}
-    .contact-us  {
-      background-position: center;
+  }
+  .contact-us {
+    background-position: center;
 
     grid-template: 50% 50% / 50% 50%;
-
   }
 
   .profile {
@@ -113,12 +115,11 @@ h4 {
   }
 }
 
-
 /*SUBMIT FORM*/
 
 .contact-us {
   background-image: url(../submitFormBackground.png);
-  height: 100vh;
+  height: 110vh;
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -156,4 +157,14 @@ textarea {
 button {
   margin: 30px auto;
   width: 20%;
+}
+
+/* FOOTER */
+
+#footer {
+  background-color: #413f54;
+  color: white;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
 }
