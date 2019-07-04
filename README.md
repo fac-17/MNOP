@@ -124,7 +124,7 @@ Golden-Poppy #FEC500 (Pulled from the image we chose as our main image)
  - Resolving merge conflicts especially when working in the same files
  - We knew we needed to focus on mobile first design. As such we had the default stying set for a screen width of approx 375px and the media query designed to trigger at everything above this. However we completely forgot this several times! We kept making changes to the code outside of the media query and forgetting that this was for the larger screen size rather than the smaller. 🙄
  - Using rem, em, percentage rather than pixels. We started with pixels and had to back and change a lot of things to rems which made life a lot harder. 
-- We've learned about a css file called ![normalise](https://necolas.github.io/normalize.css/) that we plan on using in future projects to avoid obvious/simple issues like margins on the body so that we don't have spend time solving these issues. 
+- We've learned about a css file called [normalise](https://necolas.github.io/normalize.css/) that we plan on using in future projects to avoid obvious/simple issues like margins on the body so that we don't have spend time solving these issues. 
 
 
 ## Conclusion
