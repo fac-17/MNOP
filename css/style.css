@@ -1,0 +1,42 @@
+.profile {
+  width: 60%;
+  padding: 1rem;
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+  margin-bottom: 100px;
+}
+
+.profile img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.social-media-icons {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.profile a {
+    text-decoration: none;
+    color: black;
+}
+
+@media only screen and (min-width: 650px) {
+  .profile-container {
+    display: grid;
+    grid-template: 80vh 80vh / 50% 50%;
+  }
+
+  .profile {
+    padding: 0;
+    width: 70%;
+  }
+
+  .profile img {
+    width: 50%;
+  }
+
+}
