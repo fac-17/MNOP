@@ -102,7 +102,7 @@ h4 {
 
 .contact-us {
   background-image: url(../submitFormBackground.png);
-  height: 85vh;
+  height: 95vh;
   background-position: right;
   background-size: cover;
   background-attachment: fixed;
@@ -164,9 +164,10 @@ button {
 @media only screen and (min-width: 650px) {
   .profile-container {
     display: grid;
-    grid-template: 80vh 80vh / 50% 50%;
+    grid-template: 100vh 100vh / 50% 50%;
     max-width: 1150px;
     margin: auto;
+    margin-bottom: 10%;
   }
 
   .contact-us {
@@ -175,8 +176,16 @@ button {
   }
 
   .profile {
-    padding: 10% 5%;
+    padding: 5% 5%;
     width: 70%;
+    height: 80vh;
+    margin-bottom: 5%;
+  }
+
+  .profile h3,
+  h4,
+  p {
+    font-size: 1em;
   }
 
   .profile img {
