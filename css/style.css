@@ -1,8 +1,13 @@
 /* Overal Styling  */
+/* html {
+  margin: 0 auto;
+  max-width: 1150px;
+} */
 
-body {
-  margin: 0;
-}
+/* body {
+  margin: 0 auto;
+  max-width: 1150px;
+} */
 
 h3 {
   font-size: 1.8rem;
@@ -93,15 +98,79 @@ h4 {
   font-size: 2rem;
 }
 
+/*SUBMIT FORM*/
+
+.contact-us {
+  background-image: url(../submitFormBackground.png);
+  height: 85vh;
+  background-position: right;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contact-us-container {
+  width: 80%;
+  /* background-color: blue; */
+  margin-left: 10%;
+  display: block;
+  padding-top: 5%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 3% 0;
+}
+
+label {
+  padding: 20px 0 5px;
+}
+
+input {
+  font-family: inherit;
+  font-size: 100%;
+  padding: 2%;
+  border: 1px solid #413f54;
+}
+
+textarea {
+  height: 150px;
+  text-align: inherit;
+  font-size: 100%;
+  padding: 2%;
+  border: 1px solid #413f54;
+}
+
+button {
+  margin: 25px 0 30px 70%;
+  width: 30%;
+  padding: 4%;
+  border: 1px solid #413f54;
+}
+
+/* FOOTER */
+
+#footer {
+  background-color: #413f54;
+  color: white;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+}
+
 @media only screen and (min-width: 650px) {
   .profile-container {
     display: grid;
-
     grid-template: 80vh 80vh / 50% 50%;
+    max-width: 1150px;
+    margin: auto;
   }
+
   .contact-us {
     background-position: center;
-
     grid-template: 50% 50% / 50% 50%;
   }
 
@@ -113,58 +182,16 @@ h4 {
   .profile img {
     width: 50%;
   }
-}
 
-/*SUBMIT FORM*/
+  .contact-us-container {
+    width: 50%;
+    /* background-color: blue; */
+    margin-left: 43%;
+    display: block;
+    padding-top: 5%;
+  }
 
-.contact-us {
-  background-image: url(../submitFormBackground.png);
-  height: 110vh;
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.contact-us-container {
-  width: 50%;
-  background-color: blue;
-  margin-left: 43%;
-  display: block;
-}
-
-form {
-  display: flex;
-  flex-direction: column;
-  padding: 9% 13%;
-}
-
-label {
-  padding: 20px 0 10px;
-}
-
-input {
-  padding: 15px;
-}
-
-textarea {
-  height: 100px;
-  text-align: inherit;
-}
-
-button {
-  margin: 30px auto;
-  width: 20%;
-}
-
-/* FOOTER */
-
-#footer {
-  background-color: #413f54;
-  color: white;
-  padding: 5px;
-  display: flex;
-  justify-content: center;
+  .contact-us {
+    background-position: center;
+  }
 }
