@@ -178,6 +178,10 @@ label {
   padding: 20px 0 5px;
 }
 
+input, textarea, button {
+  outline: none !important;
+}
+
 input {
   font-size: 100%;
   padding: 2%;
@@ -196,8 +200,14 @@ button {
   margin: 25px 0 30px 70%;
   width: 30%;
   padding: 4%;
-  border: 1px solid #413f54;
   font-size: 1rem;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+button:hover {
+  background-color: #413f54;
+  color: white;
 }
 
 /* FOOTER */
