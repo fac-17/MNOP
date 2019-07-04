@@ -15,7 +15,7 @@
 
 .navbar li {
   color: white;
-
+}
   /* PROFILE SECTION*/
 .profile {
   width: 60%;
@@ -47,6 +47,9 @@
   .profile-container {
     display: grid;
     grid-template: 80vh 80vh / 50% 50%;
+}
+    .contact-us  {
+      background-position: center;
   }
 
   .profile {
@@ -58,4 +61,49 @@
     width: 50%;
   }
 
+}
+
+
+/*SUBMIT FORM*/
+
+.contact-us {
+  background-image: url(../submitFormBackground.png);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contact-us-container {
+  width: 50%;
+  background-color: blue;
+  margin-left: 43%;
+  display: block;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 9% 13%;
+}
+
+label {
+  padding: 20px 0 10px;
+}
+
+input {
+  padding: 15px;
+}
+
+textarea {
+  height: 100px;
+  text-align: inherit;
+}
+
+button {
+  margin: 30px auto;
+  width: 20%;
 }
