@@ -27,8 +27,35 @@ h4 {
 
 .navbar li {
   color: white;
+}
 
-  /* PROFILE SECTION*/
+/* MAIN IMAGE*/
+
+.welcome-page {
+  margin-top: 50px;
+  background-image: url(../images/BulbImage.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100wh;
+  height: 100vh;
+  display: flex;
+}
+
+.summary {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  width: 500px;
+  text-align: center;
+}
+
+#name,
+#tagline {
+  font-size: 1.5rem;
+}
+
+/* PROFILE SECTION*/
 .profile {
   width: 60%;
   padding: 10% 8%;
