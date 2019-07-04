@@ -4,10 +4,13 @@
   max-width: 1150px;
 } */
 
-/* body {
-  margin: 0 auto;
-  max-width: 1150px;
-} */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+}
 
 h3 {
   font-size: 1.8rem;
@@ -26,16 +29,22 @@ h4 {
   position: fixed;
   top: 0;
   width: 100%;
+  text-decoration: none;
 }
 
 .navbar {
   list-style-type: none;
   display: flex;
   justify-content: space-around;
+  text-decoration: none;
 }
 
 .navbar li {
   color: white;
+}
+
+.navbar a {
+  text-decoration: none;
 }
 
 /* PROFILE SECTION*/
@@ -92,6 +101,19 @@ button {
 .navbar li {
   font-family: "Roboto", sans-serif;
 }
+
+/*about us section*/
+
+.about-us-text {
+  font-size: 2rem;
+  margin: 3rem 12rem;
+}
+
+@media only screen and (max-width: 800px) {
+  .about-us-text {
+    margin: 3rem 7rem;
+  }
+  }
 
 /* PROFILE SECTION*/
 
@@ -186,6 +208,7 @@ button {
   padding: 5px;
   display: flex;
   justify-content: center;
+  margin: 0;
 }
 
 @media only screen and (min-width: 650px) {
