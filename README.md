@@ -3,7 +3,7 @@
 Created by Leonie, Georgia, Andy and Tony this is the first project from Founders and Coders Week 1. 
 
 We were tasked with designing and building a one-page portfolio website for our team, 
-the site can be accesed [here](https://fac-17.github.io/MNOP/)
+the site can be accesed [here.](https://fac-17.github.io/MNOP/)
 
 # Purpose:
  - Practice working with github 
