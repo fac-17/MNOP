@@ -42,7 +42,7 @@ And we knew we would need the following:
 3. Images of us
 4. Burger (top right hand side)
 5. Logo (top left)
-6. Sticky navigation bar? ![We looked into the pros and cons of this](https://www.awwwards.com/fixed-navigation-bars-pros-and-cons.html)
+6. Sticky navigation bar? [We looked into the pros and cons of this.](https://www.awwwards.com/fixed-navigation-bars-pros-and-cons.html)
 
 
 # Name & tagline
