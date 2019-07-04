@@ -1,10 +1,25 @@
+/* Overal Styling  */
+
+h3 {
+  font-size: 1.8rem;
+  margin: 20px auto;
+}
+
+h4 {
+  font-size: 1.6rem;
+  margin: 10px auto;
+}
+
 .profile {
   width: 60%;
-  padding: 1rem;
+  padding: 10% 8%;
   margin: 0 auto;
   text-align: center;
   display: block;
   margin-bottom: 100px;
+  background-color: #9fd7f2;
+  border-radius: 2%;
+  box-shadow: 2px 2px rgba(5, 28, 39, 0.3);
 }
 
 .profile img {
@@ -13,30 +28,30 @@
 }
 
 .social-media-icons {
-  width: 60%;
-  margin: 0 auto;
+  width: 80%;
+  margin: 40px auto 0 auto;
   display: flex;
   justify-content: space-evenly;
 }
 
 .profile a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
+  font-size: 2rem;
 }
 
 @media only screen and (min-width: 650px) {
   .profile-container {
     display: grid;
-    grid-template: 80vh 80vh / 50% 50%;
+    grid-template: 50% 50% / 50% 50%;
   }
 
   .profile {
-    padding: 0;
+    padding: 10% 5%;
     width: 70%;
   }
 
   .profile img {
     width: 50%;
   }
-
 }
