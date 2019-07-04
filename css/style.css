@@ -36,26 +36,49 @@ h4 {
 
 .welcome-page {
   margin-top: 50px;
-  background-image: url(../images/BulbImage.jpg);
+  background: url(../images/BulbImage.jpg) no-repeat center center;
   background-size: cover;
   background-position: center;
-  width: 100wh;
+  width: 100vw;
   height: 100vh;
   display: flex;
+  position: relative;
 }
 
 .summary {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  margin: auto;
-  width: 500px;
-  text-align: center;
+  align-items: right;
+/*  width: 500px; */
+  text-align: right;
+  padding-right: 0rem;
+  padding-top: 0%;
+  margin-right: 5%;
+  margin-left: 50%;
+  margin-top: 1%;
+  position: relative;
 }
 
-#name,
+#name {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 15rem;
+  text-align: right;
+  margin-bottom: 5%;
+  color: white;
+}
+
 #tagline {
-  font-size: 1.5rem;
+  font-size: 3rem;
+  color:  #413f54;
+  line-height: 1;
+}
+
+h2, h3, h4 {
+  font-family: 'Hind Siliguri', sans-serif;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
 }
 
 /* PROFILE SECTION*/
