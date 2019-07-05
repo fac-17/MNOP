@@ -62,12 +62,15 @@ button {
   text-decoration: none;
 }
 
-.navbar li {
-  color: white;
-}
-
 .navbar a {
   text-decoration: none;
+  color: white;
+  /* background-color: #fec500; */
+  padding: 5% 30% 10% 30%;
+}
+
+.navbar a:hover {
+  color: #fec500;
 }
 
 /* MAIN IMAGE*/
@@ -249,6 +252,10 @@ button:hover {
   .about-us h2,
   .our-team h2 {
     padding-left: 10%;
+  }
+
+  .navbar a {
+    padding: 5% 50% 10% 50%;
   }
 
   #name {
